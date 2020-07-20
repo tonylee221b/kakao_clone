@@ -1,3 +1,3 @@
 # kakao_clone
- 
-Kakao Desktop App Clone
+
+CSS got so much better

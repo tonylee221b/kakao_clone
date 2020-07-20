@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>The Tony Times</title>
+    <meta name="description" content="This is my website." />
+    <meta charset="utf-8" />
+    <style>
+      body {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      div {
+        background-color: teal;
+        width: 200px;
+        height: 200px;
+      }
+      @media screen and (min-width: 601px) and (max-width: 1200px) and (orientation: portrait) {
+        div {
+          background-color: wheat;
+        }
+      }
+      span {
+        font-size: 50px;
+      }
+      @media screen and (orientation: landscape) {
+        span {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <span>Please Flip Your Phone :(</span>
+  </body>
+</html>
